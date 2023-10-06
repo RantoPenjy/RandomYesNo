@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+          integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles-confetti@2.12.0/tsparticles.confetti.bundle.min.js"></script>
+    <title>YES or NO</title>
+  </head>
+  <body>
+
+    <div id="app" class="dark-theme">
+      <h1 class="welcome-message">Click the bottom button to random the answer</h1>
+      <div class="card">
+      </div>
+    </div>
+    <div class="control">
+      <div class="theme">
+        <a class="theme-button active-theme" id="dark" title="To light mode">
+          <i class="fa-solid fa-moon"></i>
+        </a>
+        <a class="theme-button" id="light" title="To dark mode">
+          <i class="fa-solid fa-sun"></i>
+        </a>
+      </div>
+      <div class="button">
+        <h1 class="animate__animated animate__heartBeat animate__infinite">👉</h1>
+        <a class="random-button" title="Randomize">
+          <i class="fa-solid fa-refresh"></i>
+        </a>
+      </div>
+    </div>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
