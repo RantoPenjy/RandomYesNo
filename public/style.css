@@ -50,54 +50,63 @@ body {
   text-align: center;
 }
 
+#app .error-message{
+  color: #ff1616;
+}
+
 .card{
   width: 100%;
 }
 
-.card span{
+.card .answer{
   font-size: 75px;
 }
 
 .card .gif-animation{
   height: 400px;
   border-radius: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
 .card .gif-animation img{
   height: 400px;
   border-radius: 50px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
 .control{
   position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
   right: 3%;
   top: 5%;
 }
 
 .button{
-  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
 }
 
-.button h1{
-  position: absolute;
-  top: 35%;
-  right: 110%;
+.button span{
+  font-size: 40px;
+  color: #ffc400;
 }
 
-.random-button {
-  border-radius: 50%;
-  border: 1px solid #ffffff;
-  padding: 0.6em 0.8em;
+.button .random-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
   color: #ffffff;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
   background-color: #1a1a1a;
   cursor: pointer;
-  transition: border-color 0.25s;
 }
-.random-button:hover {
+.button .random-button:hover {
   border-color: #ffc400;
   color: #ffc400;
 }
@@ -126,7 +135,7 @@ body {
   cursor: pointer;
 }
 
-.theme  .theme-button:not(.active-theme) {
+.theme .theme-button:not(.active-theme) {
   display: none;
 }
 

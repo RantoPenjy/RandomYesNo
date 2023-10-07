@@ -11,15 +11,15 @@
     <link rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
-    <script src="https://cdn.jsdelivr.net/npm/tsparticles-confetti@2.12.0/tsparticles.confetti.bundle.min.js"></script>
     <title>YES or NO</title>
   </head>
   <body>
 
     <div id="app" class="dark-theme">
-      <h1 class="welcome-message">Click the bottom button to random the answer</h1>
+      <h1 class="welcome-message">Click the bottom button beside to random the answer</h1>
       <div class="card">
       </div>
+      <h1 class="error-message"></h1>
     </div>
     <div class="control">
       <div class="theme">
@@ -31,7 +31,7 @@
         </a>
       </div>
       <div class="button">
-        <h1 class="animate__animated animate__heartBeat animate__infinite">👉</h1>
+        <span class="animate__animated animate__heartBeat animate__infinite"><i class="fa-solid fa-arrow-right"></i><!--👉--></span>
         <a class="random-button" title="Randomize">
           <i class="fa-solid fa-refresh"></i>
         </a>
@@ -39,5 +39,6 @@
     </div>
 
     <script type="module" src="/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles-confetti@2.12.0/tsparticles.confetti.bundle.min.js"></script>
   </body>
 </html>

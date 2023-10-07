@@ -1,7 +1,6 @@
-export default function customConfetis() {
+export default function customConfetti() {
     const end = Date.now() + 2000;
 
-// go Buckeyes!
     const colors = ["#ffdd01", "#ffffff"];
 
     (function frame() {
