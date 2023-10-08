@@ -60,11 +60,11 @@ $(document).ready(function () {
         if ($(this).data('lang') === 'en') {
             $(this).data('lang', 'fr');
             changeLanguage('fr');
-            $(this).text('EN');
+            $(this).text('🇬🇧');
         } else {
             $(this).data('lang', 'en');
             changeLanguage('en');
-            $(this).text('FR');
+            $(this).text('🇫🇷');
         }
     });
 });
