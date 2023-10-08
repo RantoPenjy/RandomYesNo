@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <title>Random YES or NO</title>
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -11,29 +12,25 @@
     <link rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
-    <title>YES or NO</title>
   </head>
   <body>
 
-    <div id="app" class="dark-theme">
-      <h1 class="welcome-message">Click the bottom button beside to random the answer</h1>
+    <div id="app">
+      <h1 class="welcome-message">Click the top button in the side to random the answer</h1>
       <div class="card">
       </div>
       <h1 class="error-message"></h1>
     </div>
     <div class="control">
-      <div class="theme">
-        <a class="theme-button active-theme" id="dark" title="To light mode">
-          <i class="fa-solid fa-moon"></i>
-        </a>
-        <a class="theme-button" id="light" title="To dark mode">
-          <i class="fa-solid fa-sun"></i>
-        </a>
-      </div>
       <div class="button">
-        <span class="animate__animated animate__heartBeat animate__infinite"><i class="fa-solid fa-arrow-right"></i><!--👉--></span>
+        <span class="animate__animated animate__heartBeat animate__infinite"><i class="fa-solid fa-arrow-right"></i></span>
         <a class="random-button" title="Randomize">
           <i class="fa-solid fa-refresh"></i>
+        </a>
+      </div>
+      <div class="translation">
+        <a class="translation-button" data-lang="en" title="Translate">
+          FR
         </a>
       </div>
     </div>

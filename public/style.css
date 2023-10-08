@@ -6,6 +6,7 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
+  /*background-color: #242424;*/
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -51,6 +52,7 @@ body {
 }
 
 #app .error-message{
+  display: none;
   color: #ff1616;
 }
 
@@ -111,32 +113,24 @@ body {
   color: #ffc400;
 }
 
-.theme{
+.translation{
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.translation .translation-button{
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: 10px;
+  color: #ffffff;
+  border: 1px solid #ffffff;
   border-radius: 50%;
   width: 50px;
   height: 50px;
-  background-color: black;
+  background-color: #1a1a1a;
   cursor: pointer;
-}
-
-.theme #dark{
-  color: white;
-}
-
-.theme #light{
-  color: #1a1a1a;
-}
-
-.theme:hover .theme-button{
-  color: #ffc400 !important;
-  cursor: pointer;
-}
-
-.theme .theme-button:not(.active-theme) {
-  display: none;
 }
 
 @media (prefers-color-scheme: light) {
