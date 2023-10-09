@@ -35,10 +35,6 @@ Once you have installed the project dependencies, you can start using RandomYesN
 ```
 vite
 ```
-or
-```
-vite build
-```
 
 This command will start a local development server, and you can access the application in your web browser by navigating to http://localhost:5173
 
