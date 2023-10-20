@@ -16,19 +16,19 @@ To set up the project on your local machine, follow these steps:
 
 1. Clone the repository to your local machine:
 
-```
+```bash
 git clone https://github.com/RantoPenjy/RandomYesNo.git
 ```
 
 2. Navigate to the project's directory:
 
-```
+```bash
 cd RandomYesNo
 ```
 
 3. Install the project dependencies using npm (Node Package Manager):
 
-```
+```bash
 npm install
 ```
 
@@ -36,7 +36,7 @@ npm install
 
 Once you have installed the project dependencies, you can start using RandomYesNo by running the application with Vite:
 
-```
+```bash
 vite
 ```
 
