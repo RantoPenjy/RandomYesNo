@@ -62,4 +62,4 @@ Ce projet est créé par [RantoPenjy](https://github.com/RantoPenjy). Mes remerc
 
 ## Licence
 
-Ce projet est sous licence MIT - voir le fichier LICENSE pour plus de détails.
+Ce projet est sous licence MIT - voir le fichier [LICENSE](/LICENSE) pour plus de détails.
