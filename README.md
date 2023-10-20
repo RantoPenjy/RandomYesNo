@@ -1,6 +1,7 @@
 # RandomYesNo
-Generate Yes or No randomly (with gif animation) created with Vite.
-This project is inspired from the website [yesno.wtf](https://yesno.wtf)
+Generate Yes or No randomly (with gif animation) created with Vite. </br>
+This project is inspired from the website [yesno.wtf](https://yesno.wtf) and is useful for undecided people.
+<p><span style="color: red">NB</span>: The project need internet for working</p>
 
 ## Overview
 
