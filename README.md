@@ -1,4 +1,7 @@
 # RandomYesNo
+
+Pour la langue française => [Lire ce document en français](/README-fr.md)
+
 Generate Yes or No randomly (with gif animation) created with Vite. </br>
 This project is inspired from the website [yesno.wtf](https://yesno.wtf) and is useful for undecided people.
 <p><span style="color: #ff9100">NB: The project need internet for working</span></p>
